@@ -4,7 +4,7 @@ import React, { useState } from "react";
 
 //create your first component
 
-const Counter = (props) => {
+const Counter = () => {
 	let [seconds, setSeconds] = useState(0);
 	setInterval(function () {
 		setSeconds(seconds + 1);
